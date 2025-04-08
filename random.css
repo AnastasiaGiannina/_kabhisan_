@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #f9f9f9;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.parallax{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#text {
+  position: absolute;
+  font-size: 3cm;
+  color: #333;
+}
+.parallax img{
+  position: absolute;
+  pointer-events: none;
+}
